@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 import Swal from 'sweetalert2';
-
+import { Link } from 'react-router-dom';
 export default function Login() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -107,8 +107,14 @@ export default function Login() {
                                 Iniciar sesión
                             </button>
                         </div>
-                    </form>
 
+                    </form>
+                    <p className="mt-10 text-center text-sm/6 text-gray-500">
+                        No tienes cuenta?{' '}
+                        <Link to="/signup" className="font-semibold text-indigo-600 hover:text-indigo-500">
+                            Crear cuenta
+                        </Link>
+                    </p>
 
                 </div>
             </div>

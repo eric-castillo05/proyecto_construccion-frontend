@@ -4,6 +4,7 @@ import Dashborad from "./pages/dashborad.jsx";
 import AdminUsuarios from "./components/AdminUsuarios.jsx";
 import Notificaciones from "./components/Notificaciones.jsx";
 import Capacitacion from "./components/Capacitacion.jsx";
+import Signup from "./pages/Signup.jsx";
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Navigate to="/login" />} />
                 <Route path="/login" element={<Login />} />
+                <Route path="/signup" element={<Signup />} />
                 <Route path='/dashboard' element={<Dashborad />}/>
                 <Route path='/admin-usuarios' element={<AdminUsuarios />}/>
                 <Route path='/notificaciones' element={<Notificaciones />}/>

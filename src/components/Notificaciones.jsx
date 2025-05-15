@@ -92,7 +92,7 @@ function CrearNotificacion() {
                         className="w-full mt-1 px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-green-300"
                     >
                         <option value="">Selecciona el rol</option>
-                        <option value="PERSONAL_OBRA">Personal de Obra</option>
+                         <option value="PERSONAL_OBRA">Personal de Obra</option>
                         <option value="SUPERVISOR_SEGURIDAD">Supervisor de Seguridad</option>
                         <option value="ADMIN">Administrador</option>
                         <option value="GERENTE_SEGURIDAD">Gerente de Seguridad</option>
